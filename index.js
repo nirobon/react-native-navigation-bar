@@ -131,8 +131,8 @@ export default class NavigationBar extends Component{
 
 let styles = StyleSheet.create({
 	container: { 
-		flex: 1,
-		position: 'absolute',
+		// flex: 1,
+		// position: 'absolute',
 		top: 0,
 		left: 0,
 		flexDirection: 'row',
@@ -189,8 +189,8 @@ if(Platform.OS === 'ios'){
 	styles = {
 		...styles,
 		container: {
-			flex: 1,
-			position: 'absolute',
+			// flex: 1,
+			// position: 'absolute',
 			top: 0,
 			left: 0,
 			flexDirection: 'row',

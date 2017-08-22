@@ -149,14 +149,17 @@ let styles = StyleSheet.create({
 		paddingLeft: 8
 	},
 	leftButtonIcon: {
+
 		width: 12,
 		height: 15,
 		marginRight: 6
 	},
 	leftButtonTitle: {
+		fontFamily:'DB Ozone X',
 		fontSize: 15
 	},
 	title: {
+		fontFamily:'DB Ozone X',
 		flex: 1,
 		alignItems: 'center',
 		paddingTop: 1,
@@ -165,10 +168,12 @@ let styles = StyleSheet.create({
 		overflow: 'hidden'
 	},
 	titleText: {
+		fontFamily:'DB Ozone X',
 		fontSize: 18,
 		fontWeight: '400'
 	},
 	rightButton: {
+		fontFamily:'DB Ozone X',
 		flex: 1,
 		flexDirection: 'row',
 		justifyContent: 'flex-end',
@@ -178,10 +183,12 @@ let styles = StyleSheet.create({
 		paddingRight: 8
 	},
 	rightButtonIcon: {
+		
 		width: 10,
 		height: 15
 	},
 	rightButtonTitle: {
+		fontFamily:'DB Ozone X',
 		fontSize: 15
 	}
 });

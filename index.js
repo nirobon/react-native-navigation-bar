@@ -131,6 +131,7 @@ export default class NavigationBar extends Component{
 
 let styles = StyleSheet.create({
 	container: { 
+		fontFamily:'DB Ozone X',
 		// flex: 1,
 		// position: 'absolute',
 		top: 0,
@@ -189,6 +190,7 @@ if(Platform.OS === 'ios'){
 	styles = {
 		...styles,
 		container: {
+			fontFamily:'DB Ozone X',
 			// flex: 1,
 			// position: 'absolute',
 			top: 0,

@@ -76,7 +76,7 @@ export default class NavigationBar extends Component{
 	_renderRightIcon() {
 		if(this.state.rightButtonIcon){
 			return (
-				<Image style={styles.rightButtonIcon} resizeMode={'contain'} source={this.state.rightButtonIcon} size={20}/>
+				<Image style={styles.rightButtonIcon} resizeMode={'contain'} source={this.state.rightButtonIcon}/>
 			);
 		}
 		return null;
@@ -173,6 +173,7 @@ let styles = StyleSheet.create({
 		fontWeight: '400'
 	},
 	rightButton: {
+
 		fontFamily:'DB Ozone X',
 		flex: 1,
 		flexDirection: 'row',
@@ -184,8 +185,8 @@ let styles = StyleSheet.create({
 	},
 	rightButtonIcon: {
 		
-		width: 10,
-		height: 15
+		width: 15,
+		height: 25
 	},
 	rightButtonTitle: {
 		fontFamily:'DB Ozone X',

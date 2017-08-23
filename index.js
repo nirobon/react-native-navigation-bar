@@ -185,8 +185,8 @@ let styles = StyleSheet.create({
 	},
 	rightButtonIcon: {
 		
-		width: 15,
-		height: 25
+		width: 35,
+		height: 45
 	},
 	rightButtonTitle: {
 		fontFamily:'DB Ozone X',

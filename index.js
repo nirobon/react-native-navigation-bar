@@ -76,7 +76,7 @@ export default class NavigationBar extends Component{
 	_renderRightIcon() {
 		if(this.state.rightButtonIcon){
 			return (
-				<Image style={styles.rightButtonIcon} resizeMode={'contain'} source={this.state.rightButtonIcon} />
+				<Image style={styles.rightButtonIcon} resizeMode={'contain'} source={this.state.rightButtonIcon} size={20}/>
 			);
 		}
 		return null;

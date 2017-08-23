@@ -173,7 +173,6 @@ let styles = StyleSheet.create({
 		fontWeight: '400'
 	},
 	rightButton: {
-
 		fontFamily:'DB Ozone X',
 		flex: 1,
 		flexDirection: 'row',
@@ -185,8 +184,8 @@ let styles = StyleSheet.create({
 	},
 	rightButtonIcon: {
 		
-		width: 35,
-		height: 45
+		width: 20,
+		height: 25
 	},
 	rightButtonTitle: {
 		fontFamily:'DB Ozone X',

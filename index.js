@@ -172,7 +172,8 @@ let styles = StyleSheet.create({
 	},
 	titleText: {
 		fontFamily:'DB Ozone X',
-		fontSize: 18,
+		fontSize: 22,
+		fontWeight:'bold',
 		fontWeight: '400'
 	},
 	rightButton: {

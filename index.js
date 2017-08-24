@@ -162,6 +162,7 @@ let styles = StyleSheet.create({
 	},
 	title: {
 		fontFamily:'DB Ozone X',
+		fontSize: 22,
 		flex: 1,
 		alignItems: 'center',
 		paddingTop: 1,

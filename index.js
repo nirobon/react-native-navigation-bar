@@ -135,6 +135,7 @@ let styles = StyleSheet.create({
 		fontFamily:'DB Ozone X',
 		// flex: 1,
 		// position: 'absolute',
+		fontSize:22,
 		top: 0,
 		left: 0,
 		flexDirection: 'row',
